@@ -11,6 +11,12 @@ import { Suspense } from "react";
 import View from "@/components/View";
 import StartupCard, { StartupTypeCard } from "@/components/StartupCard";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Startup Card"
+}
+
 const md = markdownit();
 
 export const experimental__ppr = true;
